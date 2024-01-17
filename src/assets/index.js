@@ -28,6 +28,10 @@ import tesla from "./company/tesla.png";
 import geonfinity from "./company/geonfinity.png";
 import globiz from "./company/globiz.png";
 
+import melowave from "./melowave.png";
+import xpnstrkr from "./xpnstrkr.png";
+import oilcredit from "./oilcredit.png"
+
 export {
   logo,
   backend,
@@ -56,4 +60,7 @@ export {
   tesla,
   geonfinity,
   globiz,
+  melowave,
+  xpnstrkr,
+  oilcredit,
 };

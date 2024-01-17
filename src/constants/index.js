@@ -18,6 +18,9 @@ import {
   geonfinity,
   globiz,
   threejs,
+  melowave,
+  xpnstrkr,
+  oilcredit,
 } from "../assets";
 
 export const navLinks = [
@@ -185,7 +188,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: null,
+    image: melowave,
     source_code_link: "https://github.com/",
   },
   {
@@ -206,7 +209,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image:null,
+    image: xpnstrkr,
     source_code_link: "https://github.com/",
   },
   {
@@ -227,11 +230,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image:null,
+    image: oilcredit,
     source_code_link: "https://github.com/",
   },
   // {
-  //   name: "Portfolio",
+  //   name: "VMS",
   //   description: "A comprehensive and user-friendly platform designed to streamline and enhance the entire volunteer management process. With a user-friendly interface, administrators can easily create volunteer opportunities, track volunteer availability, and assign tasks. Volunteers, in turn, can explore opportunities, sign up for events, and log their hours seamlessly.",
   //   tags: [
   //     {
