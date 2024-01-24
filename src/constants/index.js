@@ -55,6 +55,10 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
+  {
+    title: "Graphics Designer",
+    icon: creator,
+  },
 ];
 
 const technologies = [
@@ -121,9 +125,10 @@ const experiences = [
     date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using Vue.js, Quasar and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      
     ],
   },
   {
@@ -134,9 +139,9 @@ const experiences = [
     date: "Jan 2021 - Feb 2022",
     points: [
       "Developing and maintaining web applications using Django, React.js and other related technologies.",
+      "Integrating Third Party APIs.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      
     ],
   },
 
@@ -189,7 +194,7 @@ const projects = [
       },
     ],
     image: melowave,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/nitefury7/MeloWave",
   },
   {
     name: "Expense-Tracker",
@@ -210,7 +215,7 @@ const projects = [
       },
     ],
     image: xpnstrkr,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/nitefury7/Expense-Tracker",
   },
   {
     name: "OilCredit",
@@ -231,7 +236,7 @@ const projects = [
       },
     ],
     image: oilcredit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/nitefury7/OilCredit",
   },
   // {
   //   name: "VMS",
