@@ -20,17 +20,24 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.png";
+import python from "./tech/python.png";
+import django from "./tech/django.png";
+import dart from "./tech/dart.png";
+import flutter from "./tech/flutter.png";
+import vue from "./tech/vue.png";
+import blender from "./tech/blender.png";
+import illustrator from "./tech/illustrator.png";
+import postgres from "./tech/postgres.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import geonfinity from "./company/geonfinity.png";
 import globiz from "./company/globiz.png";
+import bnks from "./company/bnks.jpg";
+import acem from "./company/acem.jpg";
 
 import melowave from "./melowave.png";
 import xpnstrkr from "./xpnstrkr.png";
-import oilcredit from "./oilcredit.png"
+import oilcredit from "./oilcredit.png";
+import farmerz from "./farmerz.png";
 
 export {
   logo,
@@ -46,6 +53,14 @@ export {
   figma,
   git,
   html,
+  python,
+  dart,
+  flutter,
+  django,
+  blender,
+  illustrator,
+  vue,
+  postgres,
   javascript,
   mongodb,
   nodejs,
@@ -54,13 +69,12 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  bnks,
+  acem,
   geonfinity,
   globiz,
   melowave,
   xpnstrkr,
   oilcredit,
+  farmerz,
 };

@@ -1,29 +1,47 @@
-import React from "react";
+import React , { Suspense } from "react";
 import { styles } from "../styles";
 import { motion } from "framer-motion";
+import { BlobCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-screen mx-auto flex flex-row">
       <div
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-3">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
-          <div className="w-1 sm:h-64 h-44 violet-gradient" />
+          <div className="w-1 sm:h-88 h-72 violet-gradient" />
         </div>
         <div>
           <h1 className={`${styles.heroLeadText}`}>
             Hi, I am <br />
-            <span className={`${styles.heroHeadText}`}>
-              Ayush Marhatta
-            </span>
+            <span className={`${styles.heroHeadText}`}>Ayush Marhatta</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I design vector & 3d Graphics, develop Full Stack Applications, and
-            am a Machine Learning enthusiast.
+            I design vector & 3d Graphics, develop Full Stack{" "}
+            <br className="sm:block hidden" />
+            Applications, and am a Machine Learning enthusiast.
           </p>
         </div>
+      </div>
+
+      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+        <a href="#about">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+            <motion.div
+              animate={{
+                y: [0, 24, 0],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+              className="w-3 h-3 rounded-full bg-secondary mb-1"
+            />
+          </div>
+        </a>
       </div>
     </section>
   );

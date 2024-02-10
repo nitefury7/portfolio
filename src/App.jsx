@@ -7,8 +7,11 @@ import {
   Experience,
   Tech,
   Works,
+  Education,
 } from "./components";
 import { StarsCanvas } from "./components/canvas";
+import { BlobCanvas } from "./components/canvas";
+
 const App = () => {
   return (
     <>
@@ -19,15 +22,18 @@ const App = () => {
             <div className="relative z-0">
               <Hero />
               <StarsCanvas />
+              {/* <div className="w-full h-auto absolute inset-0 z-[-1]">
+                <BlobCanvas />
+              </div> */}
             </div>
           </div>
           <About />
           <Experience />
           <Tech />
+          <Education />
           <Works />
           <div className="relative z-0">
             <Contact />
-            {/* <StarsCanvas /> */}
           </div>
         </div>
       </BrowserRouter>

@@ -4,6 +4,14 @@ import {
   creator,
   web,
   javascript,
+  python,
+  dart,
+  django,
+  flutter,
+  blender,
+  vue,
+  illustrator,
+  postgres,
   typescript,
   html,
   css,
@@ -17,10 +25,13 @@ import {
   docker,
   geonfinity,
   globiz,
+  bnks,
+  acem,
   threejs,
   melowave,
   xpnstrkr,
   oilcredit,
+  farmerz,
 } from "../assets";
 
 export const navLinks = [
@@ -48,7 +59,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Flutter Developer",
+    title: "Mobile Developer",
     icon: mobile,
   },
   {
@@ -62,6 +73,14 @@ const services = [
 ];
 
 const technologies = [
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Django",
+    icon: django,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -87,16 +106,16 @@ const technologies = [
     icon: redux,
   },
   {
+    name: "Vue",
+    icon: vue,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -107,13 +126,33 @@ const technologies = [
     icon: git,
   },
   {
+    name: "Dart",
+    icon: dart,
+  },
+  {
+    name: "Flutter",
+    icon: flutter,
+  },
+  {
     name: "figma",
     icon: figma,
+  },
+  {
+    name: "Illustrator",
+    icon: illustrator,
+  },
+  {
+    name: "Blender",
+    icon: blender,
   },
   {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "PostgreSQL",
+    icon: postgres,
+  }
 ];
 
 const experiences = [
@@ -122,13 +161,11 @@ const experiences = [
     company_name: "Globiz Engineering Solutions",
     icon: globiz,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "October 2022 - January 2023",
     points: [
       "Developing and maintaining web applications using Vue.js, Quasar and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      
     ],
   },
   {
@@ -136,17 +173,34 @@ const experiences = [
     company_name: "GeonFinity",
     icon: geonfinity,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "November 2023 - Present",
     points: [
       "Developing and maintaining web applications using Django, React.js and other related technologies.",
       "Integrating Third Party APIs.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      
+      "Working on data analysis and visualization projects on GeoSpatial Database.",
+      "Collaborating with cross-functional teams to create high-quality products.",
     ],
   },
-
 ];
 
+const educations = [
+  {
+    title: "CIE A-Levels",
+    company_name: "Budhanilkantha School",
+    icon: bnks,
+    iconBg: "#383E56",
+    date: "2017 - 2019",
+    points: [],
+  },
+  {
+    title: "Bachelors in Computer Engineering",
+    company_name: "Advanced College of Engineering and Management",
+    icon: acem,
+    iconBg: "#E6DEDD",
+    date: "2019 - 2024",
+    points: [],
+  },
+];
 // const testimonials = [
 //   {
 //     testimonial:
@@ -238,26 +292,31 @@ const projects = [
     image: oilcredit,
     source_code_link: "https://github.com/nitefury7/OilCredit",
   },
-  // {
-  //   name: "VMS",
-  //   description: "A comprehensive and user-friendly platform designed to streamline and enhance the entire volunteer management process. With a user-friendly interface, administrators can easily create volunteer opportunities, track volunteer availability, and assign tasks. Volunteers, in turn, can explore opportunities, sign up for events, and log their hours seamlessly.",
-  //   tags: [
-  //     {
-  //       name: "js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "django",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image:null,
-  //   source_code_link: "https://github.com/",
-  // }
+  {
+    name: "Farmerz",
+    description:
+      "The Farmerz is a system designed exclusively for farmers and thier customers, offering an efficient solution for shopping groceries to promote local products. This application empowers",
+    tags: [
+      {
+        name: "django-rest",
+        color: "green-text-gradient",
+      },
+      {
+        name: "js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "flutter",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: farmerz,
+    source_code_link: "https://github.com/nitefury7/farmerz_api",
+  },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, educations };
