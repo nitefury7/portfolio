@@ -295,7 +295,7 @@ const projects = [
   {
     name: "Farmerz",
     description:
-      "The Farmerz is a system designed exclusively for farmers and thier customers, offering an efficient solution for shopping groceries to promote local products. This application empowers",
+      "The Farmerz is a system designed exclusively for farmers and thier customers, offering an efficient solution for shopping groceries to promote local products. This application empowers farmers to place their local products and customers to buy them from their personalized recommendation according to their past rating for the products.",
     tags: [
       {
         name: "django-rest",
