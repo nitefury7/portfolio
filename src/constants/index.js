@@ -161,7 +161,7 @@ const experiences = [
     company_name: "Globiz Engineering Solutions",
     icon: globiz,
     iconBg: "#383E56",
-    date: "October 2022 - January 2023",
+    date: "September 2022 - January 2023",
     points: [
       "Developing and maintaining web applications using Vue.js, Quasar and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -173,7 +173,7 @@ const experiences = [
     company_name: "GeonFinity",
     icon: geonfinity,
     iconBg: "#E6DEDD",
-    date: "November 2023 - Present",
+    date: "October 2023 - January 2024",
     points: [
       "Developing and maintaining web applications using Django, React.js and other related technologies.",
       "Integrating Third Party APIs.",
